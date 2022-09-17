@@ -1,0 +1,9 @@
+h1, h2, h3, h4,
+.logo-text,
+.filter-block h4 {
+	font-family: "proxima-nova", "arial", sans-serif;
+}
+
+.page-leftarea {
+	font-family: "proxima-nova", "Lato", Helvetica, Arial, sans-serif;
+}

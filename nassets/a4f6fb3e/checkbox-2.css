@@ -1,0 +1,8 @@
+.custom-field.type-checkbox .field-label { display: block;}
+.custom-field.type-checkbox .field-label input { float: left; margin-right: 10px; }
+.custom-field.type-checkbox .field-description-block { padding-left: 23px;}
+.custom-field.type-checkbox .field-label { margin-bottom: 0px; }
+.custom-field.type-checkbox .field-label .label-value {
+    display: block;
+    margin-left: 20px;
+}

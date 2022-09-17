@@ -1,0 +1,31 @@
+.custom-field.required .field-label { font-weight: bold; }
+
+.custom-field .required-sign { display: none }
+.custom-field.required .required-sign { display: inline; color: red; padding-left: 5px; }
+
+.custom-field { margin-bottom:  30px; }
+.custom-field .field-description-block { font-style: italic; color: #999; }
+
+.field-params .required-input { margin-right: 5px;}
+
+.field-input-block.html-block-right,
+.field-input-block.html-block-left {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.field-html_block-block.html-block-right {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: -5px;
+	margin-left: 9px;
+}
+
+.field-html_block-block.html-block-left {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: -5px;
+	margin-right: 9px;
+}
+
+

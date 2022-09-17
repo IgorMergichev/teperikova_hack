@@ -1,0 +1,123 @@
+.user-notifications {
+    display: none;
+    width: 340px;
+    clear: both;
+}
+.user-notifications .clear {
+    clear: both;
+}
+.user-notifications .notification-group {
+    border-top: 1px solid #e0e0e0;
+    position: relative;
+    padding: 14px 14px 10px 20px;
+    background-color: #ffffff;
+    font-size: 0.9em;
+}
+.user-notifications .notification-group .content {
+    width: 225px;
+    float: left;
+    margin-top: -2px;
+    line-height: 1.2em;
+}
+.user-notifications .notification-group .date{
+    position: absolute;
+    bottom: 5px;
+    right: 14px;
+    color: #c3c3c3;
+    font-size: 0.8em;
+}
+.user-notifications .notification-group .user-image{
+    float: left;
+    margin-right: 10px;
+}
+.user-notifications .notification-group .mark-viewed{
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    color: #c3c3c3;
+    font-size: 20px;
+}
+.user-notifications .notification-group .mark-viewed:hover{
+    color:#000000;
+}
+.user-notifications .notification-group .notification {
+    padding: 5px;
+}
+.user-notifications .notification-click-area {
+    cursor: pointer;
+    display: block;
+    color: #333333
+}
+
+.user-notifications .notification-click-area:hover {
+    background-color: #fdf9f1;
+}
+.user-notifications .notification-status-viewed, .user-notifications .notification-status-viewed:hover {
+    background-color: #f0f0f0;
+}
+.user-notifications .notification-status-viewed, .user-notifications .notification-status-viewed a {
+    color: #afafaf;
+}
+.user-notifications .notification-status-viewed:hover, .user-notifications .notification-status-viewed a:hover {
+    color: #737373;
+}
+/*.leftbar-main-links li.service-icon-my {*/
+    /*position: relative;*/
+/*}*/
+/*.leftbar-main-links .service-icon-my .notify-count {*/
+    /*border-radius: 0;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*width: 70px;*/
+    /*height: 35px;*/
+    /*text-align: center;*/
+    /*padding-right: 10px;*/
+
+    /*padding-top: 12px;*/
+/*}*/
+#serviceBlocknotifications_button {
+    width: 340px;
+    border-left: 1px solid #e0e0e0;
+}
+/*#serviceBlockUserNotifications ul {*/
+    /*position: absolute;*/
+    /*top: 20px;*/
+    /*right: 14px;*/
+/*} */
+/*#serviceBlockUserNotifications ul li {*/
+    /*float: left;*/
+/*}*/
+/*#serviceBlockUserNotifications ul li a {*/
+    /*padding: 0;*/
+    /*color: #7f8c9a;*/
+/*}*/
+/*#serviceBlockUserNotifications ul li a:hover {*/
+    /*color: #000000;*/
+    /*background: transparent;*/
+/*}*/
+.leftbar-main-links .user-notifications-button .service-link {
+    height: 36px;
+}
+.leftbar-main-links  .user-notifications-button .notify-count {
+    margin-top: 8px;right: 20px;
+}
+
+.user-notifications-page .user-notifications {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.user-notifications-page .user-notifications .notification-group {
+    border-top: none;
+    font-size: 1em;
+}
+.user-notifications-page .user-notifications .notification-group .content {
+    padding-left: 0;
+}
+.user-notifications-page .user-notifications .notification-group .mark-viewed{
+    display: none;
+}
+
+.note-editor.fullscreen {
+    padding-left: 70px !important;
+}

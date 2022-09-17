@@ -1,0 +1,191 @@
+.navbar-gc-logo {
+    width: 30px;
+    height: 30px;
+    background: url( "/public/img/gc_logo.png" );
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 767px) {
+    .logo { display: none;}
+    body { padding-top: 0px;}
+
+    /*.page-actions { display: none}*/
+    .needBePaid {
+        padding-left: 40px !important;
+    }
+}
+
+.account-profile-info {
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+
+@media (min-width: 768px) {
+    .taskinwork { margin-left: 0px; padding-left: 40px; margin-left: -20px;}
+}
+
+@media (max-width: 768px) {
+    .taskinwork { margin-left: 0px; padding-left: 45px}
+}
+
+.taskinwork .dotted {
+    border-bottom: 1px dotted;
+    text-decoration: none !important;
+    display: inline;
+    line-height: 100%;
+}
+.taskinwork .w10px {
+    width: 10px;
+    display: inline-block
+}
+.taskinwork button {
+    margin-right: 10px;
+}
+.taskinwork .aside-loading {
+    margin-right: 10px !important;
+    opacity: 0;
+}
+.taskinwork .btn-success {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px !important;
+}
+.taskinwork .edit_link {
+    margin-top: 11px;
+}
+.taskinwork textarea {
+    height: 35px;
+    width: 435px;
+    border: 0;
+    margin-right: 10px;
+    padding-top: 6px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.taskinwork label {
+    display: block;
+    margin-bottom: 0;
+}
+.taskinwork a {
+    text-decoration: underline;
+    color: #000000;
+}
+.taskinwork .task-main a {
+    display: inline-block;
+    margin-right: 15px;
+}
+.taskinwork .task-title {
+    font-size: 28px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.taskinwork {
+    background-color: #f0f0f0;
+    padding-top: 10px;
+    padding-bottom: 13px;
+}
+.main-page-block { padding-bottom: 200px;}
+.main-page-block.full-width .container { width: auto}
+.main-page-block.full-width-with-max .container { width: auto; max-width: 1070px; }
+
+.main-page-block.medium-width .container { width: auto; max-width: 1300px; }
+
+
+@media (min-width: 1000px) {
+    .main-page-block.small-width {
+        width: 900px;
+    }
+}
+
+.main-page-block.small-width .container { width: 900px}
+
+.topNotitication {
+    width: 100%;
+    text-align: left;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    line-height: 15px;
+}
+.topNotitication a {
+    color: white;
+    text-decoration: underline;
+}
+.topNotitication-notice {
+    background: coral;
+}
+.topNotitication-warning {
+    background: red;
+}
+
+.panel { border-radius: 0px}
+
+.content-after-leftbar .content-container .main-page-block.with-leftarea .container { margin-left: 300px; }
+/*.content-after-leftbar .content-container .main-page-block.with-leftarea .container*/
+
+.page-leftarea {
+    width: 300px;
+    left: 70px;
+    top: 0;
+    height: 100%;
+    background: #f0f0f0;
+    z-index: 10;
+    position: fixed;
+    padding: 0px;
+    font-size: 14px;
+    overflow-y: auto;
+    border-left: 1px solid #E0E0E0;
+}
+
+/*@media (max-width: 767px) {
+    .main-page-block.with-leftarea .container { margin-left: 170px; width: 600px; }
+    .page-leftarea { width: 200px; }
+}
+
+@media (min-width: 768px) {
+    .main-page-block.with-leftarea .container { width: 600px; }
+}
+@media (min-width: 992px) {
+    .main-page-block.with-leftarea .container { width: 670px; }
+}
+@media (min-width: 1200px) {
+    .main-page-block.with-leftarea .container { width: 870px; }
+}
+*/
+@media (max-width: 1000px) {
+    .content-after-leftbar .content-container .main-page-block.with-leftarea .container { margin-left: 0px; }
+    .page-leftarea { display: none ; }
+}
+
+
+
+
+
+.page-leftarea-menu {
+    padding: 0px;
+}
+
+.page-leftarea-menu a {
+    list-style: none;
+    border-top: 1px solid #E0E0E0;
+    padding: 10px 20px;
+    overflow: hidden;
+    cursor: pointer;
+    display:block;
+}
+
+.page-leftarea-menu a.active {
+    background: white;
+}
+
+h1.account-page-title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+

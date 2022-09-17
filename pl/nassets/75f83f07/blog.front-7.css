@@ -1,0 +1,25 @@
+.single-post .item, .post-list .item {
+    margin: 0 0 10px 0;
+}
+.post-list .post {
+    margin: 0 0 20px 0;
+}
+.post .tags .description {
+    font-weight: bold;
+}
+
+.blog-post-item.status-draft { opacity: 0.5 }
+
+.blog-post-item { overflow: hidden;}
+.blog-post-tag-list { list-style: none;  padding: 0px; margin: 0px; overflow: hidden;}
+.blog-post-tag { float: left; margin-right: 10px; margin-bottom: 5px; background: #F0F0F0; padding: 3px 10px;}
+
+.blog-post-link-list { list-style: none;  padding: 0px; margin: 0px; overflow: hidden;}
+.blog-post-link { margin-right: 10px; margin-bottom: 5px; margin-bottom: 20px; }
+.blog-post-link .blog-post-link-title {font-size: 1.2em; }
+.blog-post-link-date { color: #999; }
+.blog-post-link-annotate { display: block }
+
+.record-types-list {overflow: hidden; list-style: none; margin: 0px; padding: 0px; margin-bottom: 10px; }
+.record-types-list li { float: left; margin-right: 5px; padding: 5px 15px; }
+.record-types-list li.active { background: #F0F0F0;}

@@ -1,0 +1,57 @@
+.teach-lesson-state-not_started { background: orange; color: white; }
+
+.teach-lesson-state-scheduled { background: #80a2ad; color: white; padding: 3px 7px}
+.teach-lesson-state-soon { background: orange; color: white; padding: 3px 7px; }
+.teach-lesson-state-moved { background: lightcoral; color: white; padding: 3px 7px; }
+.teach-lesson-state-cancelled { background: lightcoral; color: white; padding: 3px 7px; }
+.teach-lesson-state-started { background: green; color: white; padding: 3px 7px; }
+.teach-lesson-state-must_be_started { background: darkred; color: white; padding: 3px 7px; }
+.teach-lesson-state-finished { background: #BBB; color: white; padding: 3px 7px; }
+
+.teach-lesson-state-scheduled-light { background: rgba(128, 162, 173, 0.27); }
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+.user-state-icon:before {
+/*    font-family: 'Flat-UI-Icons';*/
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.user-state-icon {color: white;}
+.user-state-label { font-weight: bold;}
+.user-state-bg {background: white; }
+
+.user-state-accomplished .user-state-label { color: #27ae60; }
+.user-state-need_accomplish .user-state-label { color: #e74c3c; }
+.user-state-has_mission .user-state-label { color: #34495e; }
+.user-state-answered .user-state-label { color: #34495e; }
+
+.user-state-need_accomplish .user-state-label.lesson-date,
+.user-state-reached .user-state-label.lesson-date{ color: #34495e; }
+
+.user-state-accomplished .user-state-bg { background: #27ae60; }
+.user-state-need_accomplish .user-state-bg { background: #e74c3c; }
+.user-state-has_mission .user-state-bg {background: #34495e; }
+.user-state-answered .user-state-bg {background: #34495e; }
+
+.user-state-reached .user-state-icon:before { }
+.user-state-viewed .user-state-icon:before { content: "\e00a"; }
+.user-state-accomplished .user-state-icon:before { content: "\e00a"; }
+.user-state-need_accomplish .user-state-icon:before { content: "\e02c"; }
+.user-state-has_mission .user-state-icon:before { content: "\e02c"; }
+.user-state-answered .user-state-icon:before { content: "\e00a"; }
+
+.user-state-new-icon.fa { font-size: 16px; color: white; font-weight: normal}
+.user-state-new-icon.fa.fa-angle-right { font-size: 24px; font-weight: bold}
+
+.user-state-not_reached .user-state-bg { background: #d9dfe2 }
+
+
+.center-block { background: #FAFAFA}
+.center-block .row { margin: 0px; background: #FAFAFA}
+
